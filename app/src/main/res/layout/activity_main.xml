@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content_view"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <View
+        android:id="@+id/dummy_view"
+        android:layout_weight="0"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@android:color/black"
+        android:visibility="gone" />
+    <!-- The image is CC0 and found on http://pixabay.com/en/apple-fruit-vitamins-frisch-5880/ -->
+    <com.abhaybuch.layouttransitioningimageview.LayoutTransitioningImageView
+        android:id="@+id/image_view"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/sample_image" />
+</LinearLayout>

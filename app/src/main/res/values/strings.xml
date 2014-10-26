@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LayoutTransitioningImageView</string>
+    <string name="action_toggle">Toggle</string>
+    <string name="action_transition_correctly">Transition correctly</string>
+</resources>
